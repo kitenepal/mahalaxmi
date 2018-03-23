@@ -37,9 +37,18 @@ ul li {
   text-decoration: none;
 }
 
+/* line 39, ../sass/base/_base.scss */
+.img-thumbnail {
+  border-radius: 0px !important;
+}
+
 /* line 1, ../sass/module/_navbar.scss */
 .navbar {
   background-color: #434957 !important;
+}
+/* line 3, ../sass/module/_navbar.scss */
+.navbar a {
+  color: white !important;
 }
 
 /* Carousel Styles */
@@ -51,7 +60,7 @@ ul li {
 /* line 6, ../sass/module/_heroslider.scss */
 .carousel-inner img {
   width: 100%;
-  max-height: 460px;
+  max-height: 100vh;
 }
 
 /* line 11, ../sass/module/_heroslider.scss */
@@ -96,19 +105,13 @@ ul li {
   left: 0;
 }
 
-/* line 47, ../sass/module/_heroslider.scss */
+/* line 46, ../sass/module/_heroslider.scss */
 .carousel-control .glyphicon-chevron-right,
 .carousel-control .icon-next {
   right: 0;
 }
 
 /* line 52, ../sass/module/_heroslider.scss */
-.carousel-control.left span,
-.carousel-control.right span {
-  background-color: #000;
-}
-
-/* line 57, ../sass/module/_heroslider.scss */
 .carousel-control.left span:hover,
 .carousel-control.right span:hover {
   opacity: .7;
@@ -116,7 +119,7 @@ ul li {
 }
 
 /* Carousel Header Styles */
-/* line 64, ../sass/module/_heroslider.scss */
+/* line 59, ../sass/module/_heroslider.scss */
 .header-text {
   position: absolute;
   top: 20%;
@@ -126,18 +129,18 @@ ul li {
   color: #fff;
 }
 
-/* line 73, ../sass/module/_heroslider.scss */
+/* line 68, ../sass/module/_heroslider.scss */
 .header-text h2 {
   font-size: 40px;
 }
 
-/* line 77, ../sass/module/_heroslider.scss */
+/* line 72, ../sass/module/_heroslider.scss */
 .header-text h2 span {
   background-color: #2980b9;
   padding: 10px;
 }
 
-/* line 82, ../sass/module/_heroslider.scss */
+/* line 77, ../sass/module/_heroslider.scss */
 .navbar {
   border-radius: 0px;
 }
@@ -158,17 +161,18 @@ ul li {
   background-color: #434957;
   color: #fff;
   padding: 50px 0px;
+  text-align: center;
 }
-/* line 5, ../sass/module/_service.scss */
+/* line 6, ../sass/module/_service.scss */
 .service__heading {
   margin: 40px 0px;
 }
-/* line 8, ../sass/module/_service.scss */
+/* line 9, ../sass/module/_service.scss */
 .service--headingbg {
   color: #93f4ff;
 }
 
-/* line 12, ../sass/module/_service.scss */
+/* line 13, ../sass/module/_service.scss */
 .services-services {
   padding: 50px 0px;
 }
