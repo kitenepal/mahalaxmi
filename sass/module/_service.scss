@@ -2,4 +2,13 @@
 	background-color: $primary-color;
 	color: #fff;
 	padding: $padding-section;
+	&__heading{
+		margin: 40px 0px;
+	}
+	&--headingbg{
+		color: $secondary-color;
+	}
+}
+.services-services{
+	padding:$padding-section;
 }

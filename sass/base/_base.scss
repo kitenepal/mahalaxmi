@@ -1,0 +1,36 @@
+a {
+    transition: 0.5s;
+}
+
+
+ul {
+    li {
+        list-style: none;
+    }
+}
+
+// Read More Button
+.readmore {
+    background: $btn-bgcolor;
+    color: white;
+    padding: 0px 30px;
+    transition: 0.5s;
+    &:hover {
+        background-color: $btn-hovercolor;
+    }
+    a:hover {
+        color: white;
+    }
+}
+
+// Bootstrap 
+.btn {
+    border-radius: 0px !important;
+}
+
+.btn.focus,
+.btn:focus,
+.btn:hover {
+    color: #fff !important;
+    text-decoration: none;
+}
