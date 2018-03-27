@@ -165,6 +165,11 @@ ul li {
 .about {
   padding: 30px 0px;
 }
+/* line 7, ../sass/module/_about.scss */
+.about .btn.focus, .about .btn:focus, .about .btn:hover {
+  color: #434957 !important;
+  text-decoration: none;
+}
 
 /* line 1, ../sass/module/_rooms.scss */
 .rooms {

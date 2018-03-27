@@ -4,4 +4,12 @@
 }
 .about{
 	padding:$padding-section;
+	.btn.focus, .btn:focus, .btn:hover {
+	    color: $primary-color !important;
+	    text-decoration: none;
+	}
 }
+
+
+
+
